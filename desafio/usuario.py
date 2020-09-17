@@ -4,6 +4,6 @@ class Usuario:
         self.nome = nome
         self.tipo = tipo
         self.email = email
-        
+
     def __str__(self):
-        return "%s - %s" % (self.matricula, self.nome)
+        return "Matrícula: %s\nNome: %s\nTipo: %s\nE-mail: %s\n\n" % (self.matricula, self.nome, self.tipo, self.email)
